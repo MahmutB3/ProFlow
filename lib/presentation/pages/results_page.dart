@@ -20,7 +20,7 @@ class ResultsPage extends StatelessWidget {
     // Nöromorfik stil için renkler
     final backgroundColor =
         isDark ? const Color(0xFF1E1E24) : const Color(0xFFF0F0F5);
-    final shadowColor = isDark ? Colors.black : Colors.grey.shade400;
+    final shadowColor = isDark ? Colors.black : Colors.grey.shade500;
     final lightShadowColor = isDark ? Colors.grey.shade800 : Colors.white;
     final textColor = isDark ? Colors.white : const Color(0xFF2D2D3A);
     final accentColor =
